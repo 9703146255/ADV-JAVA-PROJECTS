@@ -1,0 +1,23 @@
+package in.thiru.dao;
+
+import in.thiru.dto.UserDto;
+
+public class UserDao {
+	
+	
+	
+	public boolean saveUser(UserDto user)
+	{
+		boolean isSaved=false;
+		
+		
+		
+		
+		
+		
+		
+		
+		return isSaved;
+	}
+
+}

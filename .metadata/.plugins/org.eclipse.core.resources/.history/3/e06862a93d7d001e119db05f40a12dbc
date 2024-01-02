@@ -1,0 +1,30 @@
+package in.thiru.dao;
+
+import in.thiru.dto.UserDto;
+
+/*
+id	int	NO	PRI		auto_increment
+name	varchar(30)	YES			
+email	varchar(30)	YES			
+phno	int	YES			
+ */
+
+public class UserDao {
+	
+	
+	
+	public boolean saveUser(UserDto user)
+	{
+		boolean isSaved=false;
+		
+		String sql="insert into user_crud(?,?,?) values("
+		
+		
+		
+		
+		
+		
+		return isSaved;
+	}
+
+}

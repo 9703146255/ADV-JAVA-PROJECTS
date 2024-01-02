@@ -1,0 +1,50 @@
+package in.thiru.controller;
+
+import java.io.IOException;
+import java.sql.SQLException;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import in.thiru.dao.UserDao;
+import in.thiru.dto.UserDto;
+
+@WebServlet("/UserServlet")
+public class UserSevlet extends HttpServlet {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        UserDao dao = new UserDao();
+        try {
+            List<UserDto> allUsers = dao.getAllUsers();
+            req.setAttribute("users", allUsers);
+            req.getRequestDispatcher("viewUser.jsp").forward(req, resp);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String name = req.getParameter("name");
+        String email = req.getParameter("email");
+        String phone = req.getParameter("phone");  // Correct the parameter name
+
+        UserDto user = new UserDto();
+        user.setName(name);
+        user.setEmail(email);
+        user.setPhno(Integer.parseInt(phone));  // Correct the method name
+
+        UserDao dao = new UserDao();
+        try {
+            boolean saveUser = dao.saveUser(user);  // Correct the variable name
+            if (saveUser) {
+                req.setAttribute("successMessage", "User added.");
+                req.getRequestDispatcher("user.jsp").forward(req, resp);  // Correct the JSP name
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;in.thiru.util.ConnectionFacytory.java&apos; to &apos;ConnectionFactory.java&apos;&#x0D;&#x0A;- Original project: &apos;02-ProductOperationProject&apos;&#x0D;&#x0A;- Original element: &apos;in.thiru.util.ConnectionFacytory.java&apos;&#x0D;&#x0A;- Renamed element: &apos;in.thiru.util.ConnectionFactory.java&apos;" description="Rename compilation unit &apos;ConnectionFacytory.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java&lt;in.thiru.util{ConnectionFacytory.java" name="ConnectionFactory.java" references="false" stamp="1698745312675" version="1.0"/>
+</session>

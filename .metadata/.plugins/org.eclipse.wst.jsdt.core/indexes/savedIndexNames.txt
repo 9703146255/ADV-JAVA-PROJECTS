@@ -1,0 +1,12 @@
+INDEX VERSION 1.4+D:\FULLSTACK\ASHOKIT\ADVANCEDJAVA\Projects\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2130300643.index
+3391451534.index
+3755884514.index
+1099886874.index
+2430170341.index
+1151450368.index
+1743364128.index
+382532155.index
+789247101.index
+2443933698.index
+1619421868.index

@@ -1,0 +1,14 @@
+package in.thiru.dao;
+
+import in.thiru.dto.UserDto;
+
+public class UserDao {
+	
+	
+	
+	public saveUser(UserDto user)
+	{
+		
+	}
+
+}

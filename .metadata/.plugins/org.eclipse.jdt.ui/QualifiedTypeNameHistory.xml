@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="in.ashokit.model.Book"/>
+    <fullyQualifiedTypeName name="in.ashokit.dao.ConnectionFactory"/>
+    <fullyQualifiedTypeName name="in.ashokit.dao.BookDao"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="in.thiru.util.ConnectionFactory"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="in.thiru.dto.ProductDTO"/>
+    <fullyQualifiedTypeName name="in.thiru.dao.ProductDao"/>
+    <fullyQualifiedTypeName name="com.zaxxer.hikari.HikariConfig"/>
+    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="com.zaxxer.hikari.HikariDataSource"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="in.ashokit.dao.RegistrationDao"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="in.ashokit.dto.RegistrationDto"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="in.ashokit.util.ConnectionFactory"/>
+    <fullyQualifiedTypeName name="in.ashokit.dto.ContactsDto"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+</qualifiedTypeNameHistroy>
